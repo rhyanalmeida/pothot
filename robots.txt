@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hotpotone.com/sitemap.xml
+
+Disallow: /staff
+Disallow: /admin

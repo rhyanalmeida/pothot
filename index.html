@@ -3,11 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Hot Pot One - Best Hot Pot & Dim Sum Restaurant in Quincy, MA</title>
+    <meta name="title" content="Hot Pot One - Best Hot Pot & Dim Sum Restaurant in Quincy, MA">
+    <meta name="description" content="Experience authentic Chinese hot pot and dim sum at Hot Pot One in Quincy, MA. Fresh ingredients, traditional broths, and a cozy dining atmosphere. Order online or make a reservation today!">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hotpotone.com/">
+    <meta property="og:title" content="Hot Pot One - Best Hot Pot & Dim Sum Restaurant in Quincy, MA">
+    <meta property="og:description" content="Experience authentic Chinese hot pot and dim sum at Hot Pot One in Quincy, MA. Fresh ingredients, traditional broths, and a cozy dining atmosphere. Order online or make a reservation today!">
+    <meta property="og:image" content="https://i.postimg.cc/d3k3n5Xd/coverim.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hotpotone.com/">
+    <meta property="twitter:title" content="Hot Pot One - Best Hot Pot & Dim Sum Restaurant in Quincy, MA">
+    <meta property="twitter:description" content="Experience authentic Chinese hot pot and dim sum at Hot Pot One in Quincy, MA. Fresh ingredients, traditional broths, and a cozy dining atmosphere. Order online or make a reservation today!">
+    <meta property="twitter:image" content="https://i.postimg.cc/d3k3n5Xd/coverim.jpg">
+
+    <!-- Additional Meta Tags -->
+    <meta name="keywords" content="hot pot, dim sum, Chinese restaurant, Quincy, MA, Asian cuisine, authentic Chinese food, all you can eat hot pot">
+    <meta name="author" content="Hot Pot One">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#8B4513">
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://i.postimg.cc">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="https://i.postimg.cc">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Schema.org Restaurant Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Hot Pot One",
+        "image": "https://i.postimg.cc/d3k3n5Xd/coverim.jpg",
+        "description": "Experience authentic Chinese hot pot and dim sum at Hot Pot One in Quincy, MA. Fresh ingredients, traditional broths, and a cozy dining atmosphere.",
+        "@id": "https://hotpotone.com",
+        "url": "https://hotpotone.com",
+        "telephone": "+18573872000",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "9 Billings Road",
+          "addressLocality": "Quincy",
+          "addressRegion": "MA",
+          "postalCode": "02171",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.251710,
+          "longitude": -71.022438
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "11:30",
+            "closes": "21:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday", "Saturday", "Sunday"],
+            "opens": "11:30",
+            "closes": "22:30"
+          }
+        ],
+        "menu": "https://hotpotone.com/menu",
+        "servesCuisine": ["Chinese", "Hot Pot", "Dim Sum"],
+        "priceRange": "$$",
+        "paymentAccepted": "Cash, Credit Card",
+        "acceptsReservations": "Yes"
+      }
+    </script>
+
+    <!-- Defer non-critical JavaScript -->
+    <script src="https://link.msgsndr.com/js/form_embed.js" defer></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <div style="padding: 20px; text-align: center;">
+        Please enable JavaScript to view this website.
+      </div>
+    </noscript>
   </body>
 </html>
